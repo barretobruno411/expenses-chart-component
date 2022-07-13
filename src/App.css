@@ -18,13 +18,15 @@
 }
 
 body{
-  height: 100vh;
-  width: 100vw;
+  background-color: var(--Cream);
   margin: auto;
 }
 
 .container{
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   max-width: 340px;
   margin: auto;
   margin-top: 8vh;
@@ -41,4 +43,34 @@ body{
   color: white;
   padding: 20px;
   border-radius: 10px;
+}
+
+.spendingCard{
+  width: 100%;
+  margin-top: 20px;
+  background-color: var(--Very-pale-orange);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.totalThisMont{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.rigth{
+  text-align: end;
+  justify-content: flex-end;
+}
+
+.totalThisMont p{
+  color: var(--Medium-brown);
+}
+
+hr{
+  border: solid 1px;
+  margin-top: 20px;
+  color:  var(--Cream);
 }
