@@ -9,6 +9,10 @@ build a new object Data, create an array to every index had the same day named f
 child component from Barchart, the Bar component, we can use a child component called Cell, doing a map in data array, to personalize each bar shown according with json data array, so, we can use a function to return the value of atribute fill in the cell to dinamicaly fill with a diferent color based on if between the DATA.getDay()result, that returns a number between 0 and 6
 according to MDN documentation, that means, i use to compare my custom array named with result of Data.getDay value, so you have the name of day, and compare witch bar has the same name at this time.
 
+# Find me at:
+
+[Linkedin: Bruno Barreto Duarte](https://www.linkedin.com/in/bruno-duarte-119a08b7/)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
