@@ -1,3 +1,14 @@
+# Welcome! Playng With React | Recharts to build this component
+
+this is a challenge from [Frontend Mentor website](https://www.frontendmentor.io/challenges/expenses-chart-component-e7yJBUdjwt)
+
+# My way to solve
+
+I used React to build, and learned how to use the Recharts lib to build the dinamic chart, as you can see, a use Data object to
+build a new object Data, create an array to every index had the same day named from json provided for the challenge. and in the 
+child component from Barchart, the Bar component, we can use a child component called Cell, doing a map in data array, to personalize each bar shown according with json data array, so, we can use a function to return the value of atribute fill in the cell to dinamicaly fill with a diferent color based on if between the DATA.getDay()result, that returns a number between 0 and 6
+according to MDN documentation, that means, i use to compare my custom array named with result of Data.getDay value, so you have the name of day, and compare witch bar has the same name at this time.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
